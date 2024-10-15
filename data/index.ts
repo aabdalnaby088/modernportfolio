@@ -91,11 +91,19 @@ export const gridItems = [
         title: "CineChill - Movies Website",
         des: "CineChill is an entertainment web application meticulously crafted using the TMDB API to deliver a comprehensive and seamless user experience. This product boasts an array of features, including the ability to browse media with genre filters, conduct searches, and utilize an appealing slider showcasing the day's popular movies. The application also offers in-depth movie details, video trailers, and personalized recommendations for users exploring specific titles. To enhance performance and user navigation, I employed advanced technologies such as React Router for seamless single-page application (SPA) functionality. Additionally, Context API was utilized for efficient state management, while React Helmet ensured optimal SEO performance. The incorporation of React Detect Offline contributes to a robust offline experience. For media playback, React Player was integrated, and the sleek slider component, Slick Slider, enhances the visual appeal of the application. These technologies collectively contribute to creating a sophisticated and user-friendly entertainment platform.",
         img: "/cineChill.png",
-        iconLists: ["/re.svg", "/icons8-bootstrap.svg", "/icons8-js.svg", '/api-svgrepo-com.svg' ],
+        iconLists: ["/re.svg", "/icons8-bootstrap.svg", "/icons8-js.svg", "react-router.svg","react-query.svg" ],
         link: "https://aabdalnaby088.github.io/CineChill-MoviesSPA/",
     },
     {
         id: 4,
+        title: "Fast Pizza - Simple pizza delivery",
+        des: "This project is a simple React app designed for pizza delivery. It utilizes React Redux for state management, allowing for efficient handling of application data. The app also employs React Router for seamless navigation between different views and components. Styling is achieved with Tailwind CSS, providing a modern and responsive design. Users can browse the pizza menu, add items to their cart and see order estimate delivery date, creating an intuitive and enjoyable experience for pizza lovers.",
+        img: "/fastPizza.png",
+        iconLists: ["/re.svg", "/redux.svg", "/tail.svg", 'react-router.svg' ],
+        link: "https://fast-pizza-xia9.vercel.app/",
+    },
+    {
+        id: 5,
         title: "Ahmed's Portfolio - old Portfolio",
         des: "This portfolio showcases my journey as a front-end developer, built using React, HTML, CSS, and Bootstrap. It features a collection of my previous work, highlighting projects that demonstrate my skills in creating responsive and dynamic web applications. Each project reflects my commitment to clean code and user-centered design, providing visitors with a seamless browsing experience. This portfolio not only serves as a testament to my growth in web development but also as a platform to share my passion for crafting visually appealing and functional websites.",
         img: "/oldPortfolio.png",
@@ -103,7 +111,7 @@ export const gridItems = [
         link: "https://aabdalnaby088.github.io/Ahmed-s-Portfolio/",
     },
     {
-        id: 5,
+        id: 6,
         title: "GameGlyphic",
         des: "I used my skills in Vanilla JavaScript, Bootstrap, CSS, and HTML to create a user-friendly website for gamers. The site lets users easily explore different game categories and find detailed information about each game. You can search for specific games and filter them by categories. It's a simple and fun way for gamers to discover and learn more about their favorite games. This project showcases my ability to build a website that looks good and works well, making it enjoyable for users who love gaming",
         img: "/gameGlyphic.png",
@@ -111,7 +119,7 @@ export const gridItems = [
         link: "https://aabdalnaby088.github.io/GameGlyphic/",
     },
     {
-        id: 6,
+        id: 7,
         title: "Weather - simple Weather App",
         des: "I developed a dynamic and user-friendly weather application using a combination of Vanilla JavaScript, HTML, CSS, and Bootstrap. This web application provides real-time weather updates with a focus on delivering essential information at a glance. Users can easily access key weather metrics such as maximum temperature, minimum temperature, current temperature, wind speed, humidity, and more, ensuring a comprehensive overview of the current weather conditions. The user interface is designed for optimal usability, incorporating responsive design principles to guarantee a seamless experience across various devices. This project not only showcases my proficiency in front-end technologies but also demonstrates my ability to create intuitive and efficient applications that enhance user experience.Note :Make sure you enable unsecure content on your browser to make the Api work",
         img: "Weather.png",
